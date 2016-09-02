@@ -29,7 +29,7 @@ public class StoreBoltIPS extends BaseBasicBolt {
 		conn.open();
 	}
 
-	public void _execute(Tuple tuple, BasicOutputCollector collector)
+	public void execute(Tuple tuple, BasicOutputCollector collector)
 	{
 		PreparedStatement statement = null;
 
